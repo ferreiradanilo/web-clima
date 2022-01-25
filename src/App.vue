@@ -5,7 +5,7 @@
         <input 
           type="text" 
           class="search-bar" 
-          placeholder="Search..."
+          placeholder="Pesquisar cidade..."
           v-model="query"
           @keypress="fetchWeather"
         />
@@ -74,18 +74,18 @@ body {
   font-family: 'montserrat', sans-serif;
 }
 #app {
-  background-image: url('./assets/cold-bg.jpg');
+  background-image: url('./assets/f1.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: flex;
   transition: 0.4s;
 }
 #app.warm {
-  background-image: url('./assets/warm-bg.jpg');
+  background-image: url('./assets/f2.jpg');
 }
 main {
   min-height: 100vh;
   padding: 25px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
+  background-image: linear-gradient(to flex, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75));
 }
 .search-box {
   width: 100%;
