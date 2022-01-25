@@ -54,7 +54,7 @@ export default {
     setResults (results) {
       this.weather = results;
     },
-    dateBuilder () { //Criando critérios especificos para data
+    dateBuilder () { // Criando critérios especificos para data
       let d = new Date();
       let months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
       let days = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
