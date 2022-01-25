@@ -1,24 +1,16 @@
-# weather-app
+# Projeto:
 
-## Project setup
-```
-npm install
-```
+Página Web que mostra o clima atual da cidade pesquisada!
 
-### Compiles and hot-reloads for development
-```
+## Para rodar o projeto:
+
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Como usar:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Clicar na barra de pesquisa;
+- Digitar o nome da cidade;
+- Clicar na tecla 'Enter' para pesquisar;
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- O resultado será mostrado abaixo da barra de pesquisa,
+  mostrando o nome da cidade, país, data, e a temperatura.
